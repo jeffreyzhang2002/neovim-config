@@ -13,3 +13,6 @@ vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 vim.opt.termguicolors = true
 vim.opt.keymodel="startsel"
+
+vim.opt.foldmethod = "marker"
+vim.opt.foldmarker = "{,}"
