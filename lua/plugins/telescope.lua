@@ -12,5 +12,11 @@ return {
 		vim.keymap.set('n', '<leader>fb', builtin.buffers,   {})
 		vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 		vim.keymap.set('n', '<leader>fa', builtin.builtin,   {})
+		vim.keymap.set('n', '<leader>fr', builtin.registers, {})
+		vim.keymap.set('n', '<leader>fk', builtin.keymaps, {})
+		vim.keymap.set('n', '<leader>dd', builtin.diagnostics, {})		
+		vim.keymap.set('n', '<leader>ds', builtin.lsp_document_symbols, {})	
+		vim.keymap.set('n', '<leader>dS', builtin.lsp_workspace_symbols, {})			
 	end
 }
+
