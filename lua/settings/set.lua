@@ -16,3 +16,5 @@ vim.opt.keymodel="startsel"
 
 vim.opt.foldmethod = "marker"
 vim.opt.foldmarker = "{,}"
+
+vim.opt.whichwrap = "<,>,h,l,[,]"

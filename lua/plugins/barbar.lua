@@ -22,6 +22,6 @@ return {
 		-- Pin/unpin buffer
 		vim.keymap.set('n', '<A-p>', '<Cmd>BufferPin<CR>', opts)
 		-- Close buffer
-		vim.keymap.set('n', '<A-c>', '<Cmd>BufferClose<CR>', opts)
+		vim.keymap.set('n', '<A-->', '<Cmd>BufferClose<CR>', opts)
 	end
 }
